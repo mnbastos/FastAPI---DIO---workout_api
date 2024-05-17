@@ -29,6 +29,9 @@ pyenv virtualenv 3.11.4 workoutapi
 pyenv activate workoutapi
 pip install -r requirements.txt
 ```
+#1 - Criar venv: python -m venv venv
+#2 - Instalar libs: pip install fastapi uvicorn sqlalchemy pydantic
+
 Para subir o banco de dados, caso não tenha o [docker-compose](https://docs.docker.com/compose/install/linux/) instalado, faça a instalação e logo em seguida, execute:
 
 ```bash
